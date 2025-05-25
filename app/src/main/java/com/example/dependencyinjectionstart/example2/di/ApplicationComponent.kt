@@ -11,9 +11,9 @@ interface ApplicationComponent {
 
     fun inject(activity: MainActivity)
 
+
     @Component.Factory
     interface ApplicationComponentFactory {
-
 
         fun create(
             @BindsInstance context: Context,
