@@ -1,3 +1,4 @@
+
 package com.example.dependencyinjectionstart.example2.di
 
 import androidx.lifecycle.ViewModel
@@ -8,6 +9,7 @@ import dagger.multibindings.IntoMap
 
 @Module
 interface ViewModelModule {
+
     @IntoMap
     @ViewModelKey(ExampleViewModel::class)
     @Binds
